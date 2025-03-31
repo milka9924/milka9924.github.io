@@ -3,9 +3,9 @@ body{
 }
 h1{
   text-align:center;
-  font:"Gill Sans";
+  font-family: "Gill Sans", sans-serif;
 }
 p{
-  font:"Gill Sans";
+  font-family: "Gill Sans", sans-serif;
   text-align:center;
 }
