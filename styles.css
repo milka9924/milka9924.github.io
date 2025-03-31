@@ -5,9 +5,11 @@ h1{
   color: purple;
   text-align: center;
   font-family: Arial, sans-serif;
+  font-size: 50px;
 }
 p{
   color: darkblue;
   font-family: Arial, sans-serif;
   text-align:center;
+  font-size: 20px;
 }
