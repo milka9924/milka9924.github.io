@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Definowanie kotwicy w konkretnym miejsciu stronty</title>
+    <meta charset="UTF-8">
+    <meta name = "keywords" content="HTML5, kotwica, osyłacz, link, hiperłącze">
+    <meta name = "description" content="Przykład definiowania kotwicy w konkretnym miejscu strony">
+    <meta name = "authors" content="Konstanty Popielak">
+    <meta name = "robots" content="all">
+</head>
+    <body>
+        <h1>Jak definiujemy kotwicę na stronie</h1>
+
+        <section>
+            <h2 id="a_top">Tutaj zdefiniowaliśmy kotwicę o nazwie <i>a_top</i></h2>
+            <p>
+                <a href="#a_bottom">To jest link do kotwicy dolnej</a>
+                <figure>
+                    <img src="kotwicaniebieska.jpg">
+                    <figcaption>
+                        Rysunek 1. Kotwica niebieska
+                    </figcaption>
+                </figure>
+            </p>
+        </section>
+        <section>
+            <br><br><br>
+            <p>
+                Zdefiniowanie kotwicy w konkretnym miejscu dokumentu HTML <br>
+                i wskazanie tej kotiwcy w linku do tego dokumentu, <br>
+                spowoduje po jego otwarciu, przewinięcie -<br>
+                tak aby wiesz zawierający kotwicę znajdował się jak najbliżej górnej krawędzi okna przeglądarki. <br>
+                Aby była co przewijać dodamy dwa rysunki kotwic oraz linie poste, <br>
+                a następnie, zdefiniujemy dwie kotwice.
+                <br><br><br>
+            </p>
+        </section>
+        <section>
+            <a name="a_bottom"></a>
+            <h2>Tutaj została zdefiniowana kotwica o nazwie <i>a_bottom</i></h2>
+            <p>
+                <a href="#a_top">To jest link do kotwicy górnej</a>
+                <figure>
+                    <img src="kotwicaczerwpna.jpg">
+                    <figcaption>
+                        Rysunek 2. Kotwica czerwona
+                    </figcaption>
+                </figure>
+            </p>
+        </section>
+    </body>
+</html>
