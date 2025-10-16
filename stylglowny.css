@@ -66,6 +66,20 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+#link3{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 20px;
+    width: 175px;
+    margin: 5px;
+    background-color: white;
+    font-size: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 #stopka{
     position: fixed;
     bottom: 0;
