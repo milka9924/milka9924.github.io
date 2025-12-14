@@ -2,6 +2,12 @@
 body{
     background-color: #eaf9ff;
 }
+ul{
+    list-style-type: none;
+}
+ul li{
+   padding: 5px; 
+}
 main{
     max-height: 100%;
     max-width: 100%;
@@ -46,4 +52,5 @@ a{
 a:hover{
     background-color: white;
 }
+
 
