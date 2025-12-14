@@ -43,6 +43,7 @@ a{
     border-width: 1px;
     border-style: solid;
 }
-a.hover{
+a:hover{
     background-color: white;
 }
+
