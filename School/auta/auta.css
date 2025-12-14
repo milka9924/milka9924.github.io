@@ -5,8 +5,8 @@ body{
 ul{
     list-style-type: none;
 }
-ul li{
-   padding: 10px; 
+li{
+   margin: 10px 0; 
 }
 main{
     max-height: 100%;
@@ -52,6 +52,7 @@ a{
 a:hover{
     background-color: white;
 }
+
 
 
 
