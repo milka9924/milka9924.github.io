@@ -1,1 +1,96 @@
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            background: #000;
+            color: #f0e68c;
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-family: 'Nosifer', cursive;
+            font-size: 150px;
+            color: #8B0000;
+            margin-bottom: 40px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            background: #4B0082;
+            border: 2px solid #000;
+            padding: 15px 35px;
+            font-size: 18px;
+            font-family: 'Butcherman', cursive;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: #6A0DAD;
+            transform: scale(1.05);
+        }
+
+        .content-section {
+            background: #1a1a1a;
+            border: 2px solid #4B0082;
+            border-radius: 10px;
+            padding: 40px;
+            margin-top: 30px;
+        }
+
+        .content-section h2 {
+            font-family: 'Butcherman', cursive;
+            font-size: 40px;
+            color: #4B0082;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .content-section p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .content-section ul {
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+
+        .content-section li {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            font-family: 'Butcherman', cursive;
+            color: #4B0082;
+        }
