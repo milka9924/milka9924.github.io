@@ -3,6 +3,9 @@ body{
     background-color: #eaf9ff;
 }
 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
 }
 li{
@@ -52,6 +55,7 @@ a{
 a:hover{
     background-color: white;
 }
+
 
 
 
