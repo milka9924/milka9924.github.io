@@ -13,7 +13,7 @@ header{
     display: flex;
     height: 10%;
     width: 100%;
-    background-color: red;
+    background-color: #eb1c24;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -29,9 +29,9 @@ section{
 }
 nav{
     display: flex;
-    background-color: orange;
+    background-color: #ff7f27;
     width: 20%;
-    color: yellow;
+    color: #fffb00;
     justify-content: center;
     align-items: center;
     font-size: 5dvh;
@@ -42,20 +42,26 @@ aside{
     display: flex;
     justify-items: center;
     align-items: center;
+    background-color: #f1e4b0;
 }
 footer{
     display: flex;
     justify-content: right;
     align-items: center;
-    background-color: plum;
+    background-color: #c9bee6;
     height: 10%;
     padding-right: 5dvh;
-    color: red;
+    color: #c11f36;
     font-size: 2.5dvh;
 }
 img{
     margin: 10dvh;
 }
+
+
+
+
+
 
 
 
