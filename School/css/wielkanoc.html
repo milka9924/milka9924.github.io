@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wielkanoc</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fcfaf2;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        p{
+            padding-bottom: 40px;
+            text-align: center;
+            font-size: 20px;
+        }
+        h3{
+            font-size: 25px;
+            color: orangered;
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        h1{
+            text-align: center;
+            color: #2e7d32;
+            font-size: 80px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+         .container{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .section{
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            border: 2px solid black;
+            margin-bottom: 30px;
+            padding: 20px;
+            gap: 30px;
+        }
+        .section:nth-child(even){
+            flex-direction: row-reverse;
+        }
+        .image-box{
+            width: 400px;
+            height: 400px;
+            flex-shrink: 0;
+            overflow: hidden;
+            background-color: #e0e0e0;
+        }
+        .image-box img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .text-box{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-box h2{
+            color: black;
+            font-size: 40px;
+            margin: 0;
+            text-align: center;
+        }
+        @media (max-width: 800px){
+            .section, .section:nth-child(even){
+                flex-direction: column;
+                text-align: center;
+            }
+            .image-box{
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+                aspect-ratio: 1 / 1;
+            }
+            .text-box{
+                padding: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Wielkanoc</h1>
+        <p>Wielkanoc to najstarsze i najważniejsze święto chrześcijańskie, upamiętniające zmartwychwstanie Jezusa Chrystusa.
+             Jest to święto ruchome, które przypada w pierwszą niedzielę po pierwszej wiosennej pełni księżyca.
+              Obchodom towarzyszy wiele barwnych tradycji,
+               takich jak święcenie pokarmów, malowanie pisanek oraz radosne śniadanie w gronie najbliższych.</p>
+        <h3>Wesołych Świąt Wielkanocnych!</h3>
+
+        <div class="section">
+            <div class="image-box">
+                <img src="pisanka.png" alt="Pisanka">
+            </div>
+            <div class="text-box">
+                <h2>Pisanka</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="image-box">
+                <img src="zajaczek.png" alt="zajączek">
+            </div>
+            <div class="text-box">
+                <h2>Zajączek</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="image-box">
+                <img src="kwiaty.png" alt="kwiaty">
+            </div>
+            <div class="text-box">
+                <h2>Kwiaty</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="image-box">
+                <img src="koszyczek.png" alt="koszyczek">
+            </div>
+            <div class="text-box">
+                <h2>Koszyczek</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="image-box">
+                <img src="baranek.png" alt="baranek">
+            </div>
+            <div class="text-box">
+                <h2>Baranek</h2>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
